@@ -116,6 +116,21 @@ li a:hover {
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
 
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- BAckground gradient - style -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<style>
+
+#grad1 {
+  height: 100px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, white , grey);
+}
+</style>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- BAckground gradient - style -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
 
 <!-- ++++++. SYLE SECTION ENDS ++++++ -->
 <!-- ++++++. SYLE SECTION ENDS ++++++ -->
@@ -143,126 +158,12 @@ li a:hover {
 <!-- ########################################### -->
 
 <div class="w3-container header">
-<p></p>
+<div id="grad1"><p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
+<p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
+<p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
+</div>
 </div>
 
-<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
-<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
-<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
-<style>
-.mySlides {display:none;}
-</style>
-
-<div class="w3-container w3-margin">
-  <h2></h2>
-</div>
-
-<div class="w3-content w3-display-container w3-row-padding w3-card-4 w3-light-grey w3-margin" style="width:100%">
-
-<!-- +++++++++++++++++++++++++++++++  -->
-  
-<div class="w3-display-container mySlides">
-  <img src="https://api.lorem.space/image?w=600&h=500" style="width:100%" class="w3-opacity-min-max">
-  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
-   <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-<script type="text/javascript" src="https://www.brainyquote.com/link/quotear.js"></script>
-<small><i><a href="/feeds/art" target="_blank" rel="nofollow"></a></i></small>  
-  <!-- ++++++ BRAINY QUOTES ++++++++++ --> 
-  </div>
-</div>
-
-<!-- +++++++++++++++++++++++++++++++  -->
-
-
-<div class="w3-display-container mySlides">
-  <img src="https://api.lorem.space/image/game?w=600&h=500" style="width:100%" class="w3-opacity-min-max">
-  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-black">
-    <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-<script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
-<small><i><a href="/quote_of_the_day" target="_blank" rel="nofollow"></a></i></small>  
-  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-  </div>
-</div>
-
-
-<!-- +++++++++++++++++++++++++++++++  -->
-
-
-<div class="w3-display-container mySlides">
-  <img src="https://api.lorem.space/image/fashion?w=600&h=500" style="width:100%">
-  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
-    <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-<script type="text/javascript" src="https://www.brainyquote.com/link/quotefu.js"></script>
-<small><i><a href="/feeds/funny" target="_blank" rel="nofollow"></a></i></small>  
-  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-  </div>
-</div>
-
-
-<!-- +++++++++++++++++++++++++++++++  -->
-
-
-<div class="w3-display-container mySlides">
-  <img src="https://api.lorem.space/image/car?w=600&h=500" style="width:100%">
-  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-black">
-    
-  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-<script type="text/javascript" src="https://www.brainyquote.com/link/quotelo.js"></script>
-<small><i><a href="/feeds/love" target="_blank" rel="nofollow"></a></i></small>  
-  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-  </div>
-</div>
-
-
-
-<!-- +++++++++++++++++++++++++++++++  -->
-
-
-<div class="w3-display-container mySlides">
-  <img src="https://picsum.photos/600/500" style="width:100%">
-  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
-    
-  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-<script type="text/javascript" src="https://www.brainyquote.com/link/quotena.js"></script>
-<small><i><a href="/feeds/nature" target="_blank" rel="nofollow"></a></i></small> 
-  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
-  </div>
-</div>
-
-
-<!-- +++++++++++++++++++++++++++++++  -->
-
-
-<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-
-</div>
-
-<!-- +++++++++++++++++++++++++++++++  -->
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-
-<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
-<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
-<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
 
 <!-- +++++++++++ -->
 <!-- +++++++++++ -->
@@ -272,9 +173,6 @@ function showDivs(n) {
 <!-- +++++++++++++ HEADER SECTION /+++++++++++++++ -->   
 <!-- ############################################### -->
 
-     </div>
-     </div>
-  </div>
   
 <!-- ++///////////////++ -->   
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -477,23 +375,146 @@ document.getElementById("demo").innerHTML = d;
 
 
 
+
+
+
+
+
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <!-- +++++#############################################++++++ -->
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
 <!-- ### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER -BEGIN ### -->
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
 <!-- +++++#############################################++++++ -->
-  <div class="w3-card-4 w3-center w3-round-xlarge" style="width:100%">
-    <div class="w3-container w3-center w3-hover-shadow">
-      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
-      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
-      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
-      <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
-      <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
-      <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
-      <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
-    </div>
+    
+<div class=".mySlides w3-card-4 w3-round-xlarge" style="width:100%">
+  
+
+<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
+<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
+<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
+
+
+<style>
+.mySlides {display:none;}
+</style>
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+  
+<div class=".mySlides w3-display-container mySlides">
+  <img src="https://api.lorem.space/image?w=600&h=300" style="width:100%" class="w3-opacity-min-max">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
+   <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotear.js"></script>
+<small><i><a href="/feeds/art" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++ BRAINY QUOTES ++++++++++ --> 
   </div>
+</div>
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<div class="w3-display-container mySlides">
+  <img src="https://api.lorem.space/image/game?w=600&h=300" style="width:100%" class="w3-opacity-min-max">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-black">
+    <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
+<small><i><a href="/quote_of_the_day" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<div class="w3-display-container mySlides">
+  <img src="https://api.lorem.space/image/fashion?w=600&h=300" style="width:100%">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
+    <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotefu.js"></script>
+<small><i><a href="/feeds/funny" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<div class="w3-display-container mySlides">
+  <img src="https://api.lorem.space/image/car?w=600&h=300" style="width:100%">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-black">
+    
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotelo.js"></script>
+<small><i><a href="/feeds/love" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<div class="w3-display-container mySlides">
+  <img src="https://picsum.photos/600/300" style="width:100%">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
+    
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotena.js"></script>
+<small><i><a href="/feeds/nature" target="_blank" rel="nofollow"></a></i></small> 
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
+<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
+<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
+
+
+ <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+ <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
+
+<div>
+
+
+
+
+  
 <!-- ++///////////////++ -->   
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <!-- +++++#############################################++++++ -->
@@ -1509,5 +1530,7 @@ document.getElementById("demo").innerHTML = d;
 </body>
 
 </html>
+
+
 
 
