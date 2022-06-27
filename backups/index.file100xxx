@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Family Site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">  
+<script src="//unpkg.com/alpinejs" defer></script>
+
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- TAILWIND CDN -->
+<!-- TAILWIND CDN --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- TAILWIND CDN -->
+<!-- TAILWIND CDN -->
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- daisy-UI CDN -->
+<!-- daisy-UI CDN -->
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/daisyui/2.17.0/full.min.css" integrity="sha512-7xQPu7o+uK2Nd2TcWgL4AWcPAGaZ58X20uRHNIHiyxVznE6Glte4EUZT4UtUEMJA+kVao+ojyu+l5THihG4PTg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- daisy-UI CDN -->
+<!-- daisy-UI CDN -->
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+
+
+<!-- ++++++. SYLE SECTION BEGINS ++++++ -->
+<!-- ++++++. SYLE SECTION BEGINS ++++++ -->
+<!-- ++++++. SYLE SECTION BEGINS ++++++ -->
+<!-- ++++++. SYLE SECTION BEGINS ++++++ -->
+
+
+
+<!-- @@@@@@@@@@@.BACKGROUND COLOR , BEGIN @@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@.BACKGROUND COLOR , BEGIN @@@@@@@@@@@@@@@@@@@@@ -->
+
+<style>
+body {
+  background-color: #e6e6e6;
+}
+</style>
+
+<!-- @@@@@@@@@@@.BACKGROUND COLOR , END @@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@.BACKGROUND COLOR , END @@@@@@@@@@@@@@@@@@@@@ -->
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Sticky Navigation Bar Example , Begin -->
+<!-- Sticky Navigation Bar Example , Begin -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<style>
+body {
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #D9AFD9;
+}
+</style>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Sticky Navigation Bar Example , ends -->
+<!-- Sticky Navigation Bar Example , ends -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!-- ++++++. SYLE SECTION ENDS ++++++ -->
+<!-- ++++++. SYLE SECTION ENDS ++++++ -->
+<!-- ++++++. SYLE SECTION ENDS ++++++ -->
+<!-- ++++++. SYLE SECTION ENDS ++++++ -->
+
+
+<!-- +++++++++++ -->
+<!-- ++++++#########################################+++ -->
+</head>
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- ++++++#########################################+++ -->
+<!-- ++++++#########################################+++ -->
+
+<body>
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- ########################################### -->
+<!-- +++++++++++++ HEADER SECTION +++++++++++++++ --> 
+<!-- +++++++++++++ HEADER SECTION +++++++++++++++ --> 
+<!-- ########################################### -->
+
+<div class="w3-container header">
+<p></p>
+</div>
+
+<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
+<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
+<!-- ++++++++++ Slideshow Caption ++++++++++ ---> 
+<style>
+.mySlides {display:none;}
+</style>
+
+<div class="w3-container w3-margin">
+  <h2></h2>
+</div>
+
+<div class="w3-content w3-display-container w3-row-padding w3-card-4 w3-light-grey w3-margin" style="width:100%">
+
+<!-- +++++++++++++++++++++++++++++++  -->
+  
+<div class="w3-display-container mySlides">
+  <img src="https://api.lorem.space/image?w=600&h=500" style="width:100%" class="w3-opacity-min-max">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
+   <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotear.js"></script>
+<small><i><a href="/feeds/art" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++ BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<div class="w3-display-container mySlides">
+  <img src="https://api.lorem.space/image/game?w=600&h=500" style="width:100%" class="w3-opacity-min-max">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-black">
+    <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
+<small><i><a href="/quote_of_the_day" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<div class="w3-display-container mySlides">
+  <img src="https://api.lorem.space/image/fashion?w=600&h=500" style="width:100%">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
+    <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotefu.js"></script>
+<small><i><a href="/feeds/funny" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<div class="w3-display-container mySlides">
+  <img src="https://api.lorem.space/image/car?w=600&h=500" style="width:100%">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-black">
+    
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotelo.js"></script>
+<small><i><a href="/feeds/love" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<div class="w3-display-container mySlides">
+  <img src="https://picsum.photos/600/500" style="width:100%">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
+    
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotena.js"></script>
+<small><i><a href="/feeds/nature" target="_blank" rel="nofollow"></a></i></small> 
+  <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
+
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<!-- +++++++++++++++++++++++++++++++  -->
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
+<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
+<!-- ++++++++++ Slideshow Caption, END ++++++++++ ---> 
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- ############################################### -->
+<!-- +++++++++++++ HEADER SECTION /+++++++++++++++ --> 
+<!-- +++++++++++++ HEADER SECTION /+++++++++++++++ -->   
+<!-- ############################################### -->
+
+     </div>
+     </div>
+  </div>
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER-END #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+
+
+
+
+<!-- ++++++#########################################+++ -->
+<!-- ++++++#########################################+++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++ -->
+<!-- +++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *GOD--LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTN #### -->
+<!-- #### *GOD--LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTN #### -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++ -->
+<div class="w3-container"> 
+<!-- +++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *GOD--LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTN #### -->
+<!-- #### *GOD--LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTN #### --> 
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++ -->
+<!-- +++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---TWO MAIN--MAIN *LEVEL--TWO --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+
+<div class="w3-panel w3-white w3-card-4">
+
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---TWO MAIN--MAIN *LEVEL--TWO --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+
+<!-- +++++#############################################++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++#############################################++++++ -->
+
+
+<hr>
+<br>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ################################################## -->
+<!-- HTML JavaScript - CLOCK , beginS -->
+<!-- ################################################## -->
+
+<div class="w3-container">
+   <div class="w3-bar w3-light-grey w3-card-4">
+     <div class="w3-right w3-light-grey w3-padding">
+<p id="demo"></p>
+    <script>
+      const d = new Date();
+document.getElementById("demo").innerHTML = d;
+    </script>
+    </div>
+  </div>
+</div>
+<!-- ################################################## -->
+<!-- HTML JavaScript - CLOCK , ends -->
+<!-- ################################################## -->  
+    
+<!-- ++++++++ -->
+<!-- ++++++++ -->  
+<!-- ++++++++ -->
+
+
+<!-- ++++++++ -->
+
+<!-- ++++++++ppppppppppppppppppppppppppppppppppp+++++++++++ -->
+<!-- ++++++++ppppppppppppppppppppppppppppppppppp+++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- ++++++++ppppppppppppppppppppppppppppppppppppppp++++++++ -->
+<!-- ++++++++ppppppppppppppppppppppppppppppppppppppppp+++++ -->
+
+
+
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<hr>
+<hr>
+<br>
+
+<!-- ####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#### -->
+<!-- ####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#### -->
+<!-- Sticky Navigation Bar Example, begin -->
+<!-- Sticky Navigation Bar Example, begin -->
+<!-- Sticky Navigation Bar Example, begin -->
+<!-- ####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#### -->
+<!-- ####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#### -->
+<ul>
+  <li><a class="active w3-card-4 w3-light-grey" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Gallery</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#### -->
+<!-- ####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#### -->
+<!-- Sticky Navigation Bar Example, end-->
+<!-- Sticky Navigation Bar Example, end -->
+<!-- Sticky Navigation Bar Example, end -->
+<!-- ####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#### -->
+<!-- ####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#### -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<hr>
+<hr>
+<br>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- ### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER -BEGIN ### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The\\Italian6 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER - END#### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+<!-- ++++++++ -->
+<!-- ++++++++ -->  
+<!-- ++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<hr>
+<hr>
+<br>
+<!-- ++++++++ -->
+<!-- ++++++++ -->  
+<!-- ++++++++ -->
+
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- ++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+
+
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<hr>
+<hr>
+<br>
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<hr>
+<hr>
+<br>
+
+<!-- ++++++++ -->
+<!-- ++++++++ -->  
+<!-- ++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- ++++++++ -->
+<!-- ++++++++ -->  
+<!-- ++++++++ -->
+
+
+<hr>
+<br>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+<div class="w3-container">
+<div class="w3-row w3-border">
+  <div class="w3-card-4 w3-center w3-round-xlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The--france07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The--france07 CENTRE CONTENT n SHADOW Inner containr.</p>       <p> The--france07 CENTRE CONTENT n SHADOW Inner containr.</p> 
+      <p> The--france07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The--france07 CENTRE CONTENT n SHADOW Inner containr.</p>      <p> The--france07 CENTRE CONTENT n SHADOW Inner containr.</p>
+    <p> The--france07 CENTRE CONTENT n SHADOW Inner containr.</p>
+    <p> The--france07 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+    </div>
+  </div>
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+
+<hr>
+<br>
+
+
+<!-- ++////////////////////////////////++ --> 
+<!-- ++////////////////////////////////++ -->
+<!-- ++////////////////////////////////++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---01 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4" style="width:50%">
+   <div class="w3-container w3-center w3-hover-shadow">
+      <p>The Italian01  This is the top-most inner containr</p>
+      <p>The Italian01  This is the top-most inner containr</p>
+      <p>The Italian01  This is the top-most inner containr</p>
+      <p>The Italian01  This is the top-most inner containr</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---01 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<hr>
+<br>
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---02 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4" style="width:100%">
+   <div class="w3-container w3-center w3-hover-shadow">
+      <p>The Italian02  This is the top-most inner containr</p>
+      <p>The Italian02 This is the top-most inner containr</p>
+      <p>The Italian02 This is the top-most inner containr</p>
+      <p>The Italian02 This is the top-most inner containr</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---02 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---03 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4" style="width:100%">
+   <div class="w3-container w3-center w3-hover-shadow">
+      <p>The Italian03  This is the top-most inner containr</p>
+      <p>The Italian03 This is the top-most inner containr</p>
+      <p>The Italian03 This is the top-most inner containr</p>
+      <p>The Italian03 This is the top-most inner containr</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---03 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ --> 
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4" style="width:100%">
+   <div class="w3-container w3-center w3-hover-shadow">
+      <p>The Italian04  This is the top-most inner containr</p>
+      <p>The Italian04 This is the top-most inner containr</p>
+      <p>The Italian04 This is the top-most inner containr</p>
+      <p>The Italian04 This is the top-most inner containr</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4" style="width:100%">
+   <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian05 CENTRE CONTENT inner containr. </p>
+      <p> The Italian05 CENTRE CONTENT inner containr. </p>
+      <p> The Italian05 CENTRE CONTENT inner containr. </p>
+      <p> The Italian05 CENTRE CONTENT inner containr. </p>
+      <p> The Italian05 CENTRE CONTENT inner containr. </p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> Th//Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian06 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xxlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xlarge w3-yellow" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian08 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian08 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian08 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian08 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian08 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian08 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian08 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+  
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<div class="w3-container">
+  <h2>Cards</h2>
+  <p>Create paper-like cards with the w3-card classes:</p>
+
+  <div class="w3-panel w3-card"><p>w3-card</p></div>
+  <div class="w3-panel w3-card-2"><p>w3-card-2</p></div>
+  <div class="w3-panel w3-card-4"><p>w3-card-4</p></div>
+</div>
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xlarge w3-yellow" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian09 W3-HALF CONTENT n SHADOW Innercontainr.</p>
+      <p> The Italian09 W3-HALF CONTENT n SHADOW Innercontainr.</p>
+      <p> The Italian09 W3-HALF CONTENT n SHADOW Innercontainr.</p>
+      <p> The Italian09 W3-HALF CONTENT n SHADOW Innercontainr.</p>
+      <p> The Italian09 W3-HALF CONTENT n SHADOW Innercontainr.</p>
+      <p> The Italian09 W3-HALF CONTENT n SHADOW Innercontainr.</p>
+      <p> The Italian09 W3-HALF CONTENT n SHADOW Innercontainr.</p>
+      <p> The Italian09 W3-HALF CONTENT n SHADOW Innercontainr.</p>      </div>
+  </div>
+  
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+
+<div class="w3-container">
+  <h2>Mobile First Responsiveness</h2>
+  <p class="w3-large">Try to resize the window!</p>
+</div>
+
+<div class="w3-row w3-border">
+  <div class="w3-container w3-half w3-red">
+    <h2>w3-half</h2>  
+    <p>The w3-half class uses 50% of the parent container.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+  </div>
+  <div class="w3-container w3-half">
+    <h2>w3-half</h2>  
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+  </div>
+  </div>
+  
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xxlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ --> 
+ 
+  <div class="w3-container">
+  <h2>Thick Border Bars</h2>
+
+  <div class="w3-panel w3-leftbar w3-border-red w3-text-red">
+    <p>I have a thick red left border.</p>
+  </div>
+
+  <div class="w3-panel w3-leftbar w3-border-blue w3-pale-blue">
+    <p>I have a thick blue left border and a pale-blue background color.</p>
+  </div>
+ 
+  <div class="w3-panel w3-topbar w3-bottombar w3-border-red w3-pale-red">
+    <p>I have a thick red top and bottom border and a pale-red background color.</p>
+  </div>
+</div>
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xxlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+  
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<div class="w3-container">
+  <h2>Mobile First Responsiveness</h2>
+  <p class="w3-large">Try to resize the window!</p>
+</div>
+
+<div class="w3-row w3-border">
+  <div class="w3-container w3-half w3-blue w3-leftbar w3-border-red">
+    <h2>w3-half</h2>  
+    <p>The w3-half class uses 50% of the parent container.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+  </div>
+  <div class="w3-container w3-half">
+    <h2>w3-half</h2>  
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+  </div>
+  </div>
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+
+<hr>
+<br>
+<!-- ++///////////////++ --> 
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+  <div class="w3-card-4 w3-center w3-round-xxlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+    </div>
+  </div>
+  
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<div class="w3-container">
+  <h2>Mobile First Responsiveness</h2>
+  <p class="w3-large">Try to resize the window!</p>
+</div>
+
+<div class="w3-row w3-border">
+  <div class="w3-container w3-half w3-purple w3-leftbar w3-border-red">
+    <h2>w3-half</h2>  
+    <p>The w3-half class uses 50% of the parent container.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+  </div>
+  <div class="w3-container w3-half w3-leftbar w3-border-yellow">
+    <h2>w3-half</h2>  
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+  </div>
+  </div>
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- +++++++.SNEAK ME IN +++++++++++++++ -->
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+<hr>
+<br>
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+<div class="w3-container">
+<div class="w3-row w3-border">
+  <div class="w3-card-4 w3-center w3-round-xxlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+
+
+  <div class="w3-container w3-half w3-light-gray w3-leftbar w3-border-red">
+    <h2>w3-half</h2>  
+    <p>The w3-half class uses 50% of the parent container.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+  </div>
+  <div class="w3-container w3-half w3-leftbar w3-border-yellow">
+    <h2>w3-half</h2>  
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+  </div>
+    </div>
+    </div>
+  </div>
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+<hr>
+<br>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+<div class="w3-container">
+<div class="w3-row w3-border">
+  <div class="w3-card-4 w3-center w3-round-xlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+
+
+  <div class="w3-container w3-half w3-cyan w3-leftbar w3-border-red">
+    <h2>w3-half</h2>  
+    <p>The w3-half class uses 50% of the parent container.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+  </div>
+  <div class="w3-container w3-half w3-leftbar w3-border-yellow">
+    <h2>w3-half</h2>  
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+  </div>
+    </div>
+    </div>
+  </div>
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+
+
+<hr>
+<br>
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+<div class="w3-container">
+<div class="w3-row w3-border">
+  <div class="w3-card-4 w3-center w3-round-xlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow">
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+
+  <div class="w3-container w3-half w3-cyan w3-leftbar w3-border-red">
+    <h2>w3-half</h2>  
+    <p>The w3-half class uses 50% of the parent container.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+  </div>
+  <div class="w3-container w3-half w3-leftbar w3-border-yellow">
+    <h2>w3-half</h2>  
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+  </div>
+    </div>
+    </div>
+  </div>
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+
+
+
+<hr>
+<br>
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+<div class="w3-container">
+<div class="w3-row w3-border">
+  <div class="w3-row w3-border w3-card-4 w3-center w3-round-xlarge" style="width:100%">
+    <div class="w3-container w3-center w3-hover-shadow <div class="w3-row w3-border">">
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+      <p> The Italian07 CENTRE CONTENT n SHADOW Inner containr.</p>
+
+ <div class="w3-container w3-half w3-cyan w3-leftbar w3-border-red">
+    <h2>w3-half</h2>  
+    <p>The w3-half class uses 50% of the parent container.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+  </div>
+  <div class="w3-container w3-half w3-leftbar w3-border-yellow">
+    <h2>w3-half</h2>  
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+    <h2>w3-half</h2> 
+  </div>
+    </div>
+    </div>
+  </div>
+  
+<!-- ++///////////////++ -->   
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---3 MAIN--MAIN *LEVEL--3 --CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++#############################################++++++ -->
+
+
+
+
+
+<hr>
+<br>
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+
+
+
+<hr>
+<br>
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+
+
+
+<hr>
+<br>
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+
+
+<hr>
+<br>
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+
+
+
+
+
+<!-- ++///////////////++ -->
+<hr>
+<br>
+
+
+<hr>
+<br>
+<!-- ++///////////////++ -->
+
+
+
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<!-- ++///////////////++ -->
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++@@@@@@@@@@.BOTTOM --- @@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---TWO MAIN--MAIN *LEVEL--TWO--END--CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+<!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---TWO MAIN--MAIN *LEVEL--TWO--END--CONTAINER #### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+  
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- ++///////////////++ -->   
+<!-- +++++++++++ -->  
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+<!-- #### *LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTAINER #### -->
+<!-- #### *LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTAINER #### --> <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+</div>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+<!-- #### *LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTAINER #### -->
+<!-- #### *LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTAINER #### --> 
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+</body>
+
+</html>
+
+
