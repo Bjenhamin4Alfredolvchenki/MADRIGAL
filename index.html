@@ -116,6 +116,10 @@ li a:hover {
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
 
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
 <!-- BAckground gradient - style -->
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -123,7 +127,7 @@ li a:hover {
 
 #grad1 {
   height: 100px;
-  background-color: red; /* For browsers that do not support gradients */
+  background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, white , grey);
 }
 </style>
@@ -132,14 +136,60 @@ li a:hover {
 <!-- BAckground gradient - style -->
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
 
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
+
+<!-- ############################## -->
+<!-- TYPEWRITER EFFECT CODE - STYLE -- BEGIN -->
+<!-- ############################## -->
+<style>
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    font-size: 30px;
+}
+
+/* cursor */
+.text-change > .txt{
+    border-right: 0.2rem solid #777;
+    animation: blink 575ms infinite;
+}
+@keyframes blink {
+    to{
+        border-right: 0.2rem solid transparent;
+    }
+}
+</style>
+
+<!-- ############################## -->
+<!-- TYPEWRITER EFFECT CODE - CSS --END -->
+<!-- ############################## -->
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
 <!-- ++++++. SYLE SECTION ENDS ++++++ -->
 <!-- ++++++. SYLE SECTION ENDS ++++++ -->
 <!-- ++++++. SYLE SECTION ENDS ++++++ -->
 <!-- ++++++. SYLE SECTION ENDS ++++++ -->
+
+
 
 
 <!-- +++++++++++ -->
+<!-- +++++++++++ -->
 <!-- ++++++#########################################+++ -->
+<!-- ++++++#########################################+++ -->
+
 </head>
 <!-- +++++++++++ -->
 <!-- +++++++++++ -->
@@ -159,8 +209,18 @@ li a:hover {
 
 <div class="w3-container header">
 <div id="grad1"><p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
-<p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
-<p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
+
+<!-- ############################## -->
+<!-- TYPEWRITER EFFECT CODE - CSS --BEGIN -->
+<!-- ############################## -->
+<div class="box-main">
+        <p class="text-big">
+            <span class="text-change" data-wait="3000" data-words='["Welcome to our family site","A portal for sharing good news","Event alerts from the home country","Birthday notifications and celebrations.","Thanks for visiting."]'></span>
+        </p>
+    </div>
+<!-- ############################## -->
+<!-- TYPEWRITER EFFECT CODE - CSS --BEGIN -->
+<!-- ############################## -->
 </div>
 </div>
 
@@ -1484,10 +1544,10 @@ function showDivs(n) {
 <!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
 <!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
 <!-- +++++#############################################++++++ -->
-<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
-<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
-<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
-<!-- ++++++. --BODY--START -- CODEX--HERE--BEGIN ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE-- END ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE-- END ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE-- END ++++++ -->
+<!-- ++++++. --BODY--START -- CODEX--HERE-- END ++++++ -->
 <!-- +++++#############################################++++++ -->
 <!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
 <!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
@@ -1527,9 +1587,117 @@ function showDivs(n) {
 <!-- #### *LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTAINER #### -->
 <!-- #### *LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTAINER #### --> 
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+
+
+
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->   
+<!-- +++++++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- ++++++. -- . SCRIPTS FILES --START -- CODEX ++++++ -->
+<!-- ++++++. -- . SCRIPTS FILES --START -- CODEX ++++++ -->
+<!-- ++++++. -- . SCRIPTS FILES --START -- CODEX ++++++ -->
+<!-- ++++++. -- . SCRIPTS FILES --START -- CODEX ++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++######-XXXXXXXXXXXXXXXXXXXXX-XXXXXXXX----######++++++ -->
+<!-- +++++#############################################++++++ -->
+<!-- +++++#############################################++++++ -->
+
+
+
+<!-- ############################## -->
+<!-- TYPEWRITER EFFECT CODE JSCRIPT- BEGIN -->
+<!-- ############################## -->
+
+<script>
+const TypeWriter = function(txtElement, words, wait = 3000){
+    this.txtElement = txtElement;
+    this.words = words;
+    this.txt = '';
+    this.wordIndex=0;
+    this.wait = parseInt(wait,10);
+    this.type();
+    this.isDeleting = false;
+}
+// Type Method
+TypeWriter.prototype.type = function(){
+   // current index of word
+   const current = this.wordIndex % this.words.length;
+// Get full text of curent word 
+const fulltxt = this.words[current];
+// check if deleting
+if(this.isDeleting){
+//Remove a character
+this.txt = fulltxt.substring(0, this.txt.length - 1);
+}else{
+// Add a character
+this.txt = fulltxt.substring(0, this.txt.length + 1);
+
+}
+
+// Insert txt into Element
+this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+
+// type speed
+let typespeed = 50;
+
+if(this.isDeleting){
+    typespeed = typespeed / 2;
+}
+
+//if word is complete
+if(!this.isDeleting && this.txt === fulltxt)
+{
+    //Make a pause at end
+   typespeed = this.wait;
+    // set delete is true
+    this.isDeleting = true;
+
+}else if(this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    //move to next word
+this.wordIndex++;
+//Pause before start typing
+typespeed = 300;
+
+}
+setTimeout(() =>this.type(), typespeed)
+
+}
+// init on dom load
+document.addEventListener('DOMContentLoaded', init);
+
+//init app
+function init(){
+  const txtElement = document.querySelector('.text-change');
+  const words = JSON.parse(txtElement.getAttribute('data-words'));
+  const wait = txtElement.getAttribute('data-wait');
+  //init type writer
+new TypeWriter(txtElement, words, wait);
+}
+</script>
+
+<!-- ############################## -->
+<!-- TYPEWRITER EFFECT CODE JSCRIPT- - END -->
+<!-- ############################## -->
+
+
+
+
 </body>
 
 </html>
+
+
+
 
 
 
