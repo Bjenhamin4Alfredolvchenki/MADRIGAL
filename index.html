@@ -421,10 +421,15 @@ document.getElementById("demo").innerHTML = d;
 </style>
 
 
+<h2 class="w3-center">HTML slides</h2>
+
+<div class="w3-content" style="max-width:400px">
+
+
 <!-- +++++++++++++++++++++++++++++++  -->
   
 <div class=".mySlides w3-display-container mySlides">
-  <img src="https://picsum.photos/600/500" style="width:100%" class="w3-opacity-min-max">
+  <img src="https://picsum.photos/600/500?random=1" style="width:100%" class="w3-opacity-min-max">
   <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
    <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
 <script type="text/javascript" src="https://www.brainyquote.com/link/quotear.js"></script>
@@ -437,7 +442,7 @@ document.getElementById("demo").innerHTML = d;
 
 
 <div class="w3-display-container mySlides">
-  <img src="https://picsum.photos/600/500" style="width:100%" class="w3-opacity-min-max">
+  <img src="https://picsum.photos/600/500?random=2" style="width:100%" class="w3-opacity-min-max">
   <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-black">
     <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
 <script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
@@ -475,8 +480,6 @@ document.getElementById("demo").innerHTML = d;
   </div>
 </div>
 
-
-
 <!-- +++++++++++++++++++++++++++++++  -->
 
 
@@ -491,34 +494,40 @@ document.getElementById("demo").innerHTML = d;
   </div>
 </div>
 
-
 <!-- +++++++++++++++++++++++++++++++  -->
 
 
-<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+<!-- +++++++++++++++++++++++++++++++  -->
+  
+<div class=".mySlides w3-display-container mySlides">
+  <img src="https://picsum.photos/600/500" style="width:100%" class="w3-opacity-min-max">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-light-grey">
+   <!-- ++++++  BRAINY QUOTES ++++++++++ --> 
+<script type="text/javascript" src="https://www.brainyquote.com/link/quotear.js"></script>
+<small><i><a href="/feeds/art" target="_blank" rel="nofollow"></a></i></small>  
+  <!-- ++++++ BRAINY QUOTES ++++++++++ --> 
+  </div>
+</div>
 
 </div>
 
 <!-- +++++++++++++++++++++++++++++++  -->
+<!-- +++++++++++++++++++++++++++++++  -->
 
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+var slideIndex = 0;
+carousel();
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
+function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+    x[i].style.display = "none"; 
   }
-  x[slideIndex-1].style.display = "block";  
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 6000); 
 }
 </script>
 
