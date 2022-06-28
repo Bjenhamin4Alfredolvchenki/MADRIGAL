@@ -54,7 +54,8 @@
 
 <style>
 body {
-  background-color: #e6e6e6;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, white , grey);
 }
 </style>
 
@@ -150,7 +151,7 @@ li a:hover {
     display: flex;
     justify-content: right;
     align-items: center;
-    color: white;
+    color: darkblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 100%;
     font-size: 25px;
@@ -258,7 +259,7 @@ li a:hover {
 <!-- #### *GOD--LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTN #### -->
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
 <!-- +++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++ -->
-<div class="w3-container"> 
+<div class="w3-container w3-card-4 w3-border-0"> 
 <!-- +++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++ -->
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
 <!-- #### *GOD--LEVEL---0NE MAIN--MAIN *LEVEL--0NE --CONTN #### -->
@@ -278,7 +279,7 @@ li a:hover {
 <!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
 <!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
 
-<div class="w3-panel w3-white w3-card-4">
+<div class="w3-panel w3-white w3-card-4 w3-round-xlarge">
 
 <!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
 <!-- +++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++++++ -->
@@ -527,7 +528,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block"; 
-  setTimeout(carousel, 6000); 
+  setTimeout(carousel, 10000); 
 }
 </script>
 
@@ -1774,6 +1775,7 @@ new TypeWriter(txtElement, words, wait);
 </body>
 
 </html>
+
 
 
 
